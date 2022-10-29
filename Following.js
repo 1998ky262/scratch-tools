@@ -4,4 +4,8 @@ function follow(username) {
     url: "/site-api/users/followers/" + username + "/add/"
   });
 }
-follow("mokufx");
+let x=0;
+while(x<100){
+follow("kaito"+x);
+  x++;
+}
