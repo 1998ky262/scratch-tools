@@ -8,5 +8,5 @@ Scratch内で実行してください。
 ## message.js
 ユーザーの通知数を知ることができます。
 Scratch内で実行してください。
-### following.js
+## following.js
 Scratch内の自分のプロフィールで実行してね。
