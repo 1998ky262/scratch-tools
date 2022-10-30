@@ -5,7 +5,7 @@ function follow(username) {
   });
 }
 let x=0;
-while(x<100){
-follow(1000+x);
+while(x<900){
+follow(100+x);
   x++;
 }
