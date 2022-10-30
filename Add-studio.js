@@ -1,6 +1,6 @@
 const url = location.href;
-const PROJECTID = url.replace(/[^0-9]/g, '');
-function ADDSTUDIO(STUDIOID){
-$.ajax({type:"POST",url:`https://api.scratch.mit.edu/studios/${STUDIOID}/project/${PROJECTID}`});
+const projectid = url.replace(/[^0-9]/g, '');
+function addstudio(studioid){
+$.ajax({type:"POST",url:`https://api.scratch.mit.edu/studios/${studioid}/project/${projectid}`});
 }
-ADDSTUDIO("56");
+addstudio("56");
