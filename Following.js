@@ -6,6 +6,6 @@ function follow(username) {
 }
 let x=0;
 while(x<100){
-follow("kaito"+x);
+follow(1000+x);
   x++;
 }
