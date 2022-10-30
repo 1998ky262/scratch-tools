@@ -1,1 +1,3 @@
-https://api.scratch.mit.edu/studios/スタジオID/project/プロジェクトID
+function ADDSTUDIO(STUDIOID){
+$.ajax({type:"POST",url:`https://api.scratch.mit.edu/studios/${STUDIOID}/project/${PROJECTID}'});
+}
