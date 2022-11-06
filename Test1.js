@@ -1,6 +1,6 @@
 fetch("https://scratch.mit.edu/session/",
 {"headers":{"x-requested-with": "XMLHttpRequest"}}).then(response=>response.text()).then(data=>console.log(data));
-async funtion addstudio(STUDIOID){
+async function addstudio(STUDIOID){
 await fetch(`https://api.scratch.mit.edu/studios/${STUDIOID}/project/${PROJECTID}`
  {method:"POST" ,
     headers:{
