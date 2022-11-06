@@ -8,7 +8,4 @@ Scratch内で実行してください。
 ## message.js
 ユーザーの通知数を知ることができます。
 Scratch内で実行してください。
-## following.js
-真の無差別フォローをします。
-Scratch内の自分のプロフィールで実行してね。
 
