@@ -6,6 +6,6 @@ function follow(username) {
 }
 let x=0;
 while(x<900){
-follow(100+x);
+SetTimeOut(follow(100+x),30000);
   x++;
 }
