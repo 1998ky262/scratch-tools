@@ -4,7 +4,7 @@ const detatext=await deta.json();
  console.log(detatext);
 }
 let a=0;
-while(a==1000){
+while(a<1001){
   trendsearch(a);
   a++;
 }
