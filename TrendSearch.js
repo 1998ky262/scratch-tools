@@ -1,13 +1,15 @@
 let username=prompt("ユーザー名を入力");
-let USERNAME=username.toUpperCase();
 let detatext;
+let USERNAME;
+let DETATEXT;
 async function trendsearch(){
     let a=0;
     while(a<10001){
-        let deta = await fetch(`https://api.scratch.mit.edu/explore/projects?limit=1&offset=${a}&language=ja&mode=trending&q=*`);
+        deta = await fetch(`https://api.scratch.mit.edu/explore/projects?limit=1&offset=${a}&language=ja&mode=trending&q=*`);
         detatext = await deta.json();
-        let DETATEXT=detatext[0]["author"]["username"].toUpperCase();
-        if(detatext == USERNAME){
+        DETATEXT=detatext[0]["author"]["username"].toUpperCase();
+        USERNAME=username.toUpperCase();
+        if(DETATEXT == USERNAME){
             console.log(username+"さんの作品「"+detatext[0]["title"]+"」が傾向"+a+"位に載っています");
         }
         a++;
