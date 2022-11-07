@@ -10,6 +10,7 @@ while(a<1001){
  if(detatext[0]["author"]["username"]==username){
  console.log(detatext[0]["title"]);
   a++;
+ }
 }
 
 
