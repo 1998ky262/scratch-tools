@@ -1,7 +1,8 @@
 const username=prompt("ユーザー名を入力");
+let detatext;
 async function trendsearch(th){
 const deta =await fetch(`https://api.scratch.mit.edu/explore/projects?limit=1&offset=${th}&language=ja&mode=trending&q=*`);
-let detatext=await deta.json();
+detatext=await deta.json();
 }
 let a=0;
 while(a<1001){
