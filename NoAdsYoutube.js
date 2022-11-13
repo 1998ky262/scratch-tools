@@ -1,5 +1,6 @@
 const a = getParam("v");
-
+const move =document.querySelector('html');
+move.remove();
 
 function getParam(name, url) {
   if (!url) url = window.location.href;
