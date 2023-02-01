@@ -4,4 +4,4 @@ while(i!==1){
   i--;
   e=e*i;
 }
-console.log(e);
+alert(e);
